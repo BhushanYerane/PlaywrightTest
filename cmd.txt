@@ -1,0 +1,7 @@
+// run typescript file
+-- nps tsc <filename>.ts after this run
+-- node <filename>.js
+
+
+cd "C:\Users\byerane\OneDrive - Capgemini\BhushanData\Skills\PWTS\automation-framework\learning\typescript"
+node --expose-gc --require "../memoryAutoLoader.js" TestTS006.ts
